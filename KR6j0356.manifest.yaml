@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0356/v1
+canonical_location: https://kanripo.org/bkk/KR6j0356/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 護命法門神呪經
+  identifiers:
+    alt_id:
+    - T20n1139
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1139.xml
+    old_id: T20n1139
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0356_000.yaml, hash: 'sha256:9eccb71343a80e59cd8a12ba7265b8296be361a6ccca0587058fc4ddbb72a55d'}
+  - {seq: 1, filename: KR6j0356_001.yaml, hash: 'sha256:35d55baf3c8400f1f3d8071ff69c6c85631990a81a82e5045c2ca47fc9edbfd2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0356_001.markers.yaml, hash: 'sha256:2aa9a2f61bd8e64f988cae029cfead6df06d64955f2ec95a4dbe022d2b85f15c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0356_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4787
+  label: 護命法門神呪經
+  type: juan
+  level: 1
+hash: sha256:e55e18e86ac98ec87533dc166ebde41843c8544cea70f7509ff57134709a20db
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
