@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0356/v1
 canonical_location: https://kanripo.org/bkk/KR6j0356/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 護命法門神呪經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0356_000.yaml, hash: 'sha256:9eccb71343a80e59cd8a12ba7265b8296be361a6ccca0587058fc4ddbb72a55d'}
-  - {seq: 1, filename: KR6j0356_001.yaml, hash: 'sha256:bb5d36d5c2873ef36b16e3bee29bfed82f6c54088370142b95967edaa230cca2'}
+  - {seq: 1, filename: KR6j0356_001.yaml, hash: 'sha256:ab97e91d7d80821acc1e30e781d41b785da44dc3674d34e604905d839b2dda97'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0356_000.markers.yaml, hash: 'sha256:a14547ea98335884fc3f95338130f4533dd28a85923cbf6b3c3fb045700a042d'}
-  - {seq: 1, role: markers, filename: assets/KR6j0356_001.markers.yaml, hash: 'sha256:c444e45708ba72fa8517f2d0c4dfa8b2a9db589fffc48a40fac289bc7dc795a5'}
+  - {seq: 1, role: markers, filename: assets/KR6j0356_001.markers.yaml, hash: 'sha256:1e2ca9155c65cd5e9a24c983db6324a4eb675082f7941fd4a8ad990df2dd0bbe'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 護命法門神呪經
   type: juan
   level: 1
-hash: sha256:7a4661103c66c23b85671e8961d1aa4c1486ce4d49bd2718524c549daa05da14
+hash: sha256:68391fd5220d7df8d9c50479d6ea1a92f0b1f11054c4832a9d87efda721514a9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
